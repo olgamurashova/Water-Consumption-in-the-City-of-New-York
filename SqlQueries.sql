@@ -1,3 +1,5 @@
+1. Creating the table to import the dataset:
+
 CREATE TABLE IF NOT EXISTS public."Water Consumption"
 (
     "Year" text COLLATE pg_catalog."default",
@@ -11,8 +13,12 @@ TABLESPACE pg_default;
 ALTER TABLE IF EXISTS public."Water Consumption"
     OWNER to postgres;
 
+2. Importing the dataset:
+
 COPY public."Water Consumption"
 FROM 'C:\Users\omdre\OneDrive\Desktop\Codecademy\Water Consumption\Water_Consumption_in_the_City_of_New_York (1).csv' DELIMITER ',' CSV HEADER;
 
 SELECT *
 FROM public."Water Consumption";
+
+3. 
