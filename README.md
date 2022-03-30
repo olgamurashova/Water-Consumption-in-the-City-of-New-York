@@ -6,6 +6,7 @@ In this project, I analyzed water consumption rate per year in the City of New Y
 
 According to the dataset, in 1979 the consumption rate of water (million gallons per day) was the highest: 
 
+![Water By Year Max](https://user-images.githubusercontent.com/89424060/160784616-b12a8d75-9dcc-45d6-8666-ace101fc593a.png)
 
 ### Technologies & Tools
 
