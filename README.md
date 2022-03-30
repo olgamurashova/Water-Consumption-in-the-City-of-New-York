@@ -19,3 +19,5 @@ The population of New York City has been steadily growing(the snapshot below dis
 
 + SQL
 + PostgreSQL
++ Jupyter Notebook
++ Pandas
