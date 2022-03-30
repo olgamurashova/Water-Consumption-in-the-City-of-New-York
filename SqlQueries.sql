@@ -26,8 +26,18 @@ FROM public."Water Consumption";
 SELECT regexp_replace('NYC Consumption(Million gallons per day)', '\(.*\)', '');
 SELECT regexp_replace('Per Capita(Gallons per person per day)', '\(.*\)', '');
 
-4. SELECT "Year",
+4. Returning the year with the highest rate of water consumption:
+
+SELECT "Year",
 MAX("NYC Consumption(Million gallons per day)")
 FROM public."Water Consumption"
 GROUP BY 1
 ORDER BY 2 DESC;
+
+5. Returning the year with the lowest water consumption:
+
+SELECT "Year",
+MIN("NYC Consumption(Million gallons per day)")
+FROM public."Water Consumption"
+GROUP BY 1
+ORDER BY 2 ASC;
