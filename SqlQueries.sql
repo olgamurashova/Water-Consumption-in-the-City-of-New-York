@@ -41,3 +41,8 @@ MIN("NYC Consumption(Million gallons per day)")
 FROM public."Water Consumption"
 GROUP BY 1
 ORDER BY 2 ASC;
+
+6. Calculating the average consumption of water in gallons per person per day:
+
+SELECT ROUND(AVG("Per Capita(Gallons per person per day)"), 1)
+FROM public."Water Consumption";
