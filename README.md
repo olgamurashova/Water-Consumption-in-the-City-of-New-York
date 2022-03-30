@@ -8,6 +8,8 @@ According to the dataset, the consumption rate of water (million gallons per day
 
 ![Water By Year Max](https://user-images.githubusercontent.com/89424060/160784616-b12a8d75-9dcc-45d6-8666-ace101fc593a.png)
 
+![Lowest Water Rate By Year](https://user-images.githubusercontent.com/89424060/160834518-5dd13269-0468-4444-8e85-6500d30e3454.png)
+
 ### Technologies & Tools
 
 + SQL
