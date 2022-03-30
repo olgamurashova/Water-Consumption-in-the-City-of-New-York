@@ -21,4 +21,7 @@ FROM 'C:\Users\omdre\OneDrive\Desktop\Codecademy\Water Consumption\Water_Consump
 SELECT *
 FROM public."Water Consumption";
 
-3. 
+3. Changing column names for the purpose of the analysis/removing brackets:
+
+SELECT regexp_replace('NYC Consumption(Million gallons per day)', '\(.*\)', '');
+SELECT regexp_replace('Per Capita(Gallons per person per day)', '\(.*\)', '');
