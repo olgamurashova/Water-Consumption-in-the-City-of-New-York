@@ -46,3 +46,8 @@ ORDER BY 2 ASC;
 
 SELECT ROUND(AVG("Per Capita(Gallons per person per day)"), 1)
 FROM public."Water Consumption";
+
+7. Calculating the total water consumed:
+
+SELECT SUM("NYC Consumption(Million gallons per day)")
+FROM public."Water Consumption";
