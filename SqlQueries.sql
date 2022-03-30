@@ -51,3 +51,11 @@ FROM public."Water Consumption";
 
 SELECT SUM("NYC Consumption(Million gallons per day)")
 FROM public."Water Consumption";
+
+8. Returning the highest population rate per year:
+
+SELECT "Year",
+MAX("New York City Population")
+FROM public."Water Consumption"
+GROUP BY 1
+ORDER BY 2 DESC;
