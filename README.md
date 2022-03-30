@@ -10,6 +10,9 @@ According to the dataset, the consumption rate of water (million gallons per day
 
 ![Lowest Water Rate By Year](https://user-images.githubusercontent.com/89424060/160834518-5dd13269-0468-4444-8e85-6500d30e3454.png)
 
+
+According to the dataset, the population of New York City has been steadily growing(the snapshot below displays data starting 2000). As displayed below, the population rate declined in 2019 and 2020 which may be related to the coronavirus pandemic.
+
 ### Technologies & Tools
 
 + SQL
